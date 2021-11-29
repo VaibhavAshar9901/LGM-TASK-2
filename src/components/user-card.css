@@ -1,0 +1,44 @@
+.loader {
+    margin: 0 auto;
+  }
+    
+  .avatar {
+    border-radius: 70px;
+    margin-bottom: 10px;
+  }
+    
+  #main {
+    padding: 15px 50px;
+    margin: 0 auto;
+    display: none;
+  }
+    
+  #main img {
+    animation-delay: 5s;
+  }
+    
+  .profile {
+    width: 300px;
+    border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    background-color: #e5ff00;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  .profile:hover {
+      transform: scale(1.01);
+      box-shadow: 3px 3px 10px #b2b2b2;
+  }
+    
+  .name {
+    color: #222831;
+    font-size: 25px;
+    font-weight: 700;
+  }
+    
+  .email {
+    font-size: 18px;
+  }
